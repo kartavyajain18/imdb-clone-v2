@@ -13,6 +13,7 @@ export default async function MoviePage({ params }) {
                 <Image
                     src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path || movie.poster_path
                         }`}
+                    alt='image not available'
                     width={500}
                     height={300}
                     className='rounded-lg'
